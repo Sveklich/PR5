@@ -1,0 +1,228 @@
+.base {
+  background: #1f1f1f;
+  height: 1080px;
+  display: flex;
+  overflow: hidden;
+  box-sizing: border-box;
+  justify-content: end;
+}
+.image {
+  display: flex;
+  flex-direction: column;
+  background-image: url("Lamps.png");
+  width: 792px;
+  height: 1080px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.lamp {
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  width: 792px;
+  height: 1080px;
+
+  object-fit: cover;  
+}
+.slogan1 {
+  text-align: center;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  left: 1369px;
+  top: 394px;
+}
+.text {
+  color: #ffffff;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+}
+.text2 {
+  color: #e7aa47;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+}
+.catalog-button {
+  width: 200px;
+  height: 50px;
+
+}
+.catalog {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  background: #e7aa47;
+  width: 200px;
+  height: 50px;
+  align-items: center;
+}
+.class2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  inset: 0;
+  width: 500px;
+  margin-top: 20px;
+}
+.glow {
+  color: #e7aa47;
+  text-align: left;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+
+  left: 144px;
+  top: 50px;
+}
+.catalog2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+
+  left: 519px;
+  top: 50px;
+}
+.blog {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+
+  left: 642px;
+  top: 50px;
+}
+.about {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+
+  left: 732px;
+  top: 50px;
+}
+.contact {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+
+  left: 836px;
+  top: 50px;
+}
+.content {
+  display: flex;
+  inset: 0;
+  flex-direction: column;
+  height: 700px;
+  justify-content: space-evenly;
+}
+.desc {
+  color: #8d8d8d;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  
+  left: 100px;
+  top: 472px;
+  width: 928px;
+}
+.slogan2 {
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  
+  left: 100px;
+  top: 380px;
+}
+.we {
+  color: #ffffff;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+}
+.believe {
+  color: #e7aa47;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+}
+.in {
+  color: #ffffff;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+}
+.light {
+  color: #e7aa47;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+}
+.explore-button {
+  width: 200px;
+  height: 50px;
+  position: static;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  width: 500px;
+}
+.button-container2 {
+  background: #e7aa47;
+  width: 200px;
+  height: 50px;
+  
+  left: 100px;
+  top: 576px;
+}
+.explore {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  
+  left: 100px;
+  top: 576px;
+  width: 200px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e7aa47;
+}
+.explore-text {
+  color: #ffffff;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  width: 200px;
+  height: 50px;
+}
+.learn-more {
+  color: #8d8d8d;
+  text-align: center;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  
+  left: 350px;
+  top: 587px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
